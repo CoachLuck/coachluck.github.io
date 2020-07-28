@@ -1,4 +1,4 @@
-/* Checks the loading state of the window */
+/* Checks the loading state of the Window */
 if ("addEventListener" in window) {
 
     window.addEventListener("load", function() {
