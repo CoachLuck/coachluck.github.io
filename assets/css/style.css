@@ -106,11 +106,9 @@ body, input, select, textarea {
 }
 
 @media screen and (max-width: 1680px) {
-
     body, input, select, textarea {
         font-size: 11pt;
     }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -240,7 +238,7 @@ ul li {
 .topnav a:hover {
     background-color: #ffc83b;
     animation-name: highlightNav;
-    animation-duration: .35s;
+    animation-duration: 0.35s;
     color: #000;
 }
 
@@ -381,15 +379,16 @@ body.is-ie #wrapper {
 
 /* The animation for navbar highlight */
 @keyframes highlightNav {
-    0%   {background-color: #282828;}
-    20%  {background-color: #535353;}
-    20%  {background-color: #92835D;}
-    30%  {background-color: #AA945C;}
-    40%  {background-color: #B89B52;}
-    50%  {background-color: #C9A23F;}
-    60%  {background-color: #cca02f;}
-    70%  {background-color: #D8AC3B;}
-    80%  {background-color: #E5B53A;}
-    90%  {background-color: #e6b435;}
-    100% {background-color: #ffc83b;}
+    0%   { background-color: #282828; }
+    20%  { background-color: #535353; }
+    20%  { background-color: #92835D; }
+    30%  { background-color: #AA945C; }
+    40%  { background-color: #B89B52; }
+    50%  { background-color: #C9A23F; }
+    60%  { background-color: #cca02f; }
+    70%  { background-color: #D8AC3B; }
+    80%  { background-color: #E5B53A; }
+    90%  { background-color: #e6b435; }
+    100% { background-color: #ffc83b; }
+
 }
