@@ -1,9 +1,9 @@
 /* Checks the loading state of the window */
-if ('addEventListener' in window) {
+if ("addEventListener" in window) {
 
-    window.addEventListener('load', function() {
-        document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+    window.addEventListener("load", function() {
+        document.body.className = document.body.className.replace(/\bis-loading\b/, "");
     });
 
-    document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+    document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? " is-ie" : "");
 }
