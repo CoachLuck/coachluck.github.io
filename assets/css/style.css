@@ -61,7 +61,7 @@ body {
 
 }
 
-body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+body.is-loading *, body.is-loading *:before, body.is-loading *::after {
     -moz-animation: none;
     -webkit-animation: none;
     animation: none;
@@ -79,7 +79,7 @@ body {
     background: linear-gradient(to right, rgb(199, 0, 57) 20%, rgb(255, 96, 27) 20%, rgb(255, 96, 27) 40%, rgb(255, 148, 27) 40%, rgb(255, 148, 27) 60%, rgb(255, 175, 27) 60%, rgb(255, 175, 27) 80%, rgb(255, 224, 27) 80%);
 }
 
-body:after {
+body::after {
     content: '';
     display: block;
     position: fixed;
@@ -87,7 +87,7 @@ body:after {
     left: 0;
     width: 100%;
     height: inherit;
-    opacity: .75;
+    opacity: 0.75;
     z-index: -1;
     background: linear-gradient(to right top, rgb(199, 0, 57) 20%, rgb(255, 96, 27) 20%, rgb(255, 96, 27) 40%, rgb(255, 148, 27) 40%, rgb(255, 148, 27) 60%, rgb(255, 175, 27) 60%, rgb(255, 175, 27) 80%, rgb(255, 224, 27) 80%);
     -moz-transition: opacity 0.75s ease-out;
@@ -96,7 +96,7 @@ body:after {
     transition: opacity 0.75s ease-out;
 }
 
-body.is-loading:after {
+body.is-loading::after {
     opacity: 1;
 }
 
