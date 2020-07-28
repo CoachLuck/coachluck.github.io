@@ -18,8 +18,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, center, ol, ul, li, form,
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
+    font-size: 100%;
     vertical-align: baseline;
 }
  footer, header, hgroup, menu, nav, section {
@@ -404,21 +404,15 @@ body.is-loading #main {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    -moz-align-items: center;
     -webkit-align-items: center;
-    -ms-align-items: center;
     align-items: center;
-    -moz-justify-content: space-between;
     -webkit-justify-content: space-between;
-    -ms-justify-content: space-between;
     justify-content: space-between;
-    -moz-flex-direction: column;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -moz-perspective: 1000px;
     -webkit-perspective: 1000px;
-    -ms-perspective: 1000px;
     perspective: 1000px;
     position: relative;
     min-height: 100%;
@@ -486,7 +480,7 @@ body.is-ie #wrapper {
     cursor: pointer;
 }
 
-.topnav a.home:hover, a.info:hover {
+.topnav a.home:hover, a.info:hover, a.active:hover {
     color: white;
     background-color: transparent;
     animation: none;
@@ -497,7 +491,7 @@ body.is-ie #wrapper {
     color: #000000;
 }
 
-/* The animation code */
+/* The animation for navbar highlight */
 @keyframes highlightNav {
     0%   {background-color: #282828;}
     20%  {background-color: #535353;}
