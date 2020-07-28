@@ -22,6 +22,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, center, ol, ul, li, form,
     font-size: 100%;
     vertical-align: baseline;
 }
+
  footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -45,14 +46,13 @@ body {
 
 /* Box Model */
 
-*, *:before, *:after {
+*, *::before, *::after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 /* Basic */
-
 @media screen and (max-width: 480px) {
 
     html, body {
