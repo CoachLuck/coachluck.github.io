@@ -1,3 +1,1 @@
-# My Personal Portfolio
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/040b3134997647fc9dc611f1a04606ff)](https://app.codacy.com/manual/CoachLuck/coachluck.github.io?utm_source=github.com&utm_medium=referral&utm_content=CoachLuck/coachluck.github.io&utm_campaign=Badge_Grade_Dashboard)
+# My Personal Portfolio [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b1a99b53f5a2441995a13f31e93672e5)](https://www.codacy.com/manual/CoachLuck/coachluck.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CoachLuck/coachluck.github.io&amp;utm_campaign=Badge_Grade)
