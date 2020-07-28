@@ -30,6 +30,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, img, center, ol, ul, li, form,
 body {
     line-height: 1;
     -webkit-text-size-adjust: none;
+    height: 100%;
+    background: linear-gradient(to right, rgb(199, 0, 57) 20%, rgb(255, 96, 27) 20%, rgb(255, 96, 27) 40%, rgb(255, 148, 27) 40%, rgb(255, 148, 27) 60%, rgb(255, 175, 27) 60%, rgb(255, 175, 27) 80%, rgb(255, 224, 27) 80%);
 }
 
 ol, ul {
@@ -66,11 +68,6 @@ body.is-loading *, body.is-loading *::before, body.is-loading *::after {
 
 html {
     height: 100%;
-}
-
-body {
-    height: 100%;
-    background: linear-gradient(to right, rgb(199, 0, 57) 20%, rgb(255, 96, 27) 20%, rgb(255, 96, 27) 40%, rgb(255, 148, 27) 40%, rgb(255, 148, 27) 60%, rgb(255, 175, 27) 60%, rgb(255, 175, 27) 80%, rgb(255, 224, 27) 80%);
 }
 
 body::after {
@@ -252,7 +249,7 @@ ul li {
 
 .topnav a.home h1 {
     font-weight: bold;
-    margin: .1em 0 0 0;
+    margin: 0.1em 0 0 0;
 }
 
 .topnav a.info {
@@ -271,8 +268,8 @@ ul li {
     background-color: rgb(255 213 59);
     color: #000;
 }
-/* Main */
 
+/* Main */
 #main {
     position: relative;
     max-width: 50%;
@@ -379,16 +376,15 @@ body.is-ie #wrapper {
 
 /* The animation for navbar highlight */
 @keyframes highlightNav {
-    0%   { background-color: #282828; }
-    20%  { background-color: #535353; }
-    20%  { background-color: #92835D; }
-    30%  { background-color: #AA945C; }
-    40%  { background-color: #B89B52; }
-    50%  { background-color: #C9A23F; }
-    60%  { background-color: #cca02f; }
-    70%  { background-color: #D8AC3B; }
-    80%  { background-color: #E5B53A; }
-    90%  { background-color: #e6b435; }
+    0% { background-color: #282828; }
+    20% { background-color: #535353; }
+    20% { background-color: #92835D; }
+    30% { background-color: #AA945C; }
+    40% { background-color: #B89B52; }
+    50% { background-color: #C9A23F; }
+    60% { background-color: #cca02f; }
+    70% { background-color: #D8AC3B; }
+    80% { background-color: #E5B53A; }
+    90% { background-color: #e6b435; }
     100% { background-color: #ffc83b; }
-
 }
