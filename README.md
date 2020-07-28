@@ -1,1 +1,2 @@
 # My Personal Portfolio [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b1a99b53f5a2441995a13f31e93672e5)](https://www.codacy.com/manual/CoachLuck/coachluck.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CoachLuck/coachluck.github.io&amp;utm_campaign=Badge_Grade)
+Just a simple website built on JavaScript, CSS, and HTML to showcase some of my past work.
