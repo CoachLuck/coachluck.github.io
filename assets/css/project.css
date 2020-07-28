@@ -28,8 +28,8 @@
     border: 2px solid rgba(0, 0, 0, 0.75);
     cursor: default;
     text-align: left;
-    margin: .5% 1%;
-    opacity: .99;
+    margin: 0.5% 1%;
+    opacity: 0.99;
     font-family: inherit;
     font-size: 60px;
     color: inherit;
@@ -63,7 +63,7 @@
 #wrap h4 {
     font-family: "Source Sans Pro Light", sans-serif;
     font-size: 40%;
-    color: #cccccc;
+    color: #ccc;
     font-weight: bold;
     text-transform: none;
     text-align: center;
@@ -145,7 +145,7 @@ table.resourceTable td.desc {
 table.resourceTable td.name {
     text-align: center;
     border-right: 2px solid black;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     font-weight: bold;
     color: inherit;
 }
@@ -176,9 +176,9 @@ table.resourceTable tfoot .links {
     text-align: right;
 }
 
-table.resourceTable tfoot .links a{
+table.resourceTable tfoot .links a {
     display: inline-block;
-    color: #FFFFFF;
+    color: #fff;
     padding: 2px 8px;
     border-radius: 5px;
 }
