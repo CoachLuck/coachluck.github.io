@@ -1,3 +1,20 @@
+@charset "UTF-8";
+
+/* Fonts */
+@import url(font-awesome.min.css);
+@font-face {
+    font-family: "Source Sans Pro Light";
+    src: url("../font/SourceSansPro-Light.ttf") format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Source Sans Pro Bold";
+    src: url("../font/SourceSansPro-Bold.ttf") format('truetype');
+    font-weight: bold;
+}
+
+/* Main Wrapper */
 #wrap {
     position: relative;
     max-width: 100%;
@@ -5,7 +22,7 @@
     max-height: 90%;
     height: 90%;
     padding: 2.5% 2.5%;
-    background: #2d2d2d;
+    background: rgba(0, 0, 0, .90);
     border-radius: 4px;
     border: 2px solid rgba(0, 0, 0, 0.75);
     cursor: default;
@@ -19,12 +36,12 @@
 }
 
 #wrap h1, h2, h3, h4 {
-    color: white;
+    color: #ffd53b;
     letter-spacing: 1px;
 }
 
 #wrap h1 {
-    font-family: FontAwesome, "Source Sans Pro Bold", sans-serif;
+    font-family: "Source Sans Pro Bold", sans-serif;
     font-size: 100%;
     text-align: center;
     margin: 0;
@@ -43,9 +60,9 @@
 }
 
 #wrap h4 {
-    font-family: FontAwesome, "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro Light", sans-serif;
     font-size: 40%;
-    color: #f79f00;
+    color: #cccccc;
     font-weight: bold;
     text-transform: none;
     text-align: center;
@@ -58,17 +75,21 @@
 }
 
 #wrap td, tr {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro Light", sans-serif;
     text-transform: none;
 }
 
+/* Resource Table */
 table.resourceTable {
     border-radius: 10px;
     background: rgb(67, 67, 67);
     width: 100%;
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
     text-align: left;
     border-collapse: collapse;
-    color: white;
+    color: #f5f5f5;
 }
 table.resourceTable td {
     border-top: none;
@@ -88,15 +109,11 @@ table.resourceTable th.mid {
     border: 2px solid black;
 }
 table.resourceTable tbody td {
-    font-size: .25em;
+    font-size: .35em;
 }
 
 table.resourceTable thead {
-    background: rgb(224,142,0);
-    background: -moz-radial-gradient(circle, rgba(224,142,0,0.8995973389355743) 2%, rgba(218,212,0,1) 33%, rgba(252,152,69,1) 71%);
-    background: -webkit-radial-gradient(circle, rgba(224,142,0,0.8995973389355743) 2%, rgba(218,212,0,1) 33%, rgba(252,152,69,1) 71%);
-    background: radial-gradient(circle, rgba(224,142,0,0.8995973389355743) 2%, rgba(218,212,0,1) 33%, rgba(252,152,69,1) 71%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e08e00",endColorstr="#fc9845",GradientType=1);
+    background: linear-gradient(90deg, #ffd53b 0%, #ff9b1b 100%);
     border-bottom: 2px solid black;
 
 }
@@ -104,7 +121,7 @@ table.resourceTable thead {
 /* The header of the table*/
 table.resourceTable thead th {
     font-size: .4em;
-    font-family: FontAwesome, "Source Sans Pro Bold", sans-serif;
+    font-family: "Source Sans Pro Bold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: black;

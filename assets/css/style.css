@@ -1,9 +1,14 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @font-face {
-    font-family: "Source Sans Pro";
+    font-family: "Source Sans Pro Light";
     src: url("../font/SourceSansPro-Light.ttf") format('truetype');
     font-style: normal;
+}
+
+@font-face {
+    font-family: "Source Sans Pro Bold";
+    src: url("../font/SourceSansPro-Bold.ttf") format('truetype');
     font-weight: bold;
 }
 
@@ -107,10 +112,9 @@ body.is-loading:after {
 }
 
 /* Type */
-
 body, input, select, textarea {
     color: #fff;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Source Sans Pro Light", sans-serif;
     font-size: 14pt;
     font-weight: 300;
     line-height: 2;
@@ -153,7 +157,6 @@ a:before {
 
 #main a:hover {
     color: #fffc3b;
-    font-family: FontAwesome, "Source Sans Pro Bold", sans-serif;
 }
 
 strong, b {
@@ -582,7 +585,7 @@ body.is-ie #wrapper {
 
 .topnav a.home h1 {
     font-weight: bold;
-    margin: .25em 0 0 0;
+    margin: .1em 0 0 0;
 }
 
 .topnav a.info {
