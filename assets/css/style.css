@@ -62,14 +62,12 @@ body {
 }
 
 body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important;
+    -moz-animation: none;
+    -webkit-animation: none;
+    animation: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
 }
 
 html {
@@ -95,7 +93,6 @@ body:after {
     -moz-transition: opacity 0.75s ease-out;
     -o-transition: opacity 0.75s ease-out;
     -webkit-transition: opacity 0.75s ease-out;
-    -ms-transition: opacity 0.75s ease-out;
     transition: opacity 0.75s ease-out;
 }
 
@@ -134,7 +131,6 @@ body, input, select, textarea {
 a {
     -moz-transition: color 0.2s ease, border-color 0.2s ease;
     -webkit-transition: color 0.2s ease, border-color 0.2s ease;
-    -ms-transition: color 0.2s ease, border-color 0.2s ease;
     transition: color 0.2s ease, border-color 0.2s ease;
     color: inherit;
     text-decoration: none;
@@ -143,7 +139,6 @@ a {
 a:before {
     -moz-transition: color 0.2s ease, text-shadow 0.2s ease;
     -webkit-transition: color 0.2s ease, text-shadow 0.2s ease;
-    -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
     transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
@@ -217,61 +212,6 @@ hr {
     border: 0;
     border-bottom: solid 1px #ffd53b;
     margin: 2em 0;
-}
-
-/* Form */
-
-form {
-    margin: 0 0 1.5em 0;
-}
-
-form > .field {
-    margin: 0 0 1.5em 0;
-}
-
-form > .field > :last-child {
-    margin-bottom: 0;
-}
-
-label {
-    color: #313f47;
-    display: block;
-    font-size: 0.9em;
-    margin: 0 0 0.75em 0;
-}
-
-input[type="text"]:invalid,
-input[type="password"]:invalid,
-input[type="email"]:invalid,
-input[type="tel"]:invalid,
-select:invalid,
-textarea:invalid {
-    box-shadow: none;
-}
-
-::-webkit-input-placeholder {
-    color: #616f77 !important;
-    opacity: 1.0;
-}
-
-:-moz-placeholder {
-    color: #616f77 !important;
-    opacity: 1.0;
-}
-
-::-moz-placeholder {
-    color: #616f77 !important;
-    opacity: 1.0;
-}
-
-:-ms-input-placeholder {
-    color: #616f77 !important;
-    opacity: 1.0;
-}
-
-.formerize-placeholder {
-    color: #616f77 !important;
-    opacity: 1.0;
 }
 
 /* List */

@@ -92,34 +92,8 @@ table.resourceTable {
     border-collapse: collapse;
     color: #f5f5f5;
 }
-table.resourceTable td {
-    border-top: none;
-    border-bottom: 2px solid black;
-    padding: 3px 3px;
-}
-table.resourceTable th {
-    padding: 3px 3px;
-}
-table.resourceTable th.left {
-    border-top-left-radius: 5px;
-}
-table.resourceTable th.right {
-    border-top-right-radius: 5px;
-}
-table.resourceTable th.mid {
-    border: 2px solid black;
-}
-table.resourceTable tbody td {
-    font-size: .35em;
-}
 
-table.resourceTable thead {
-    background: linear-gradient(90deg, #ffd53b 0%, #ff9b1b 100%);
-    border-bottom: 2px solid black;
-
-}
-
-/* The header of the table*/
+/* The Header of the table */
 table.resourceTable thead th {
     font-size: .4em;
     font-family: "Source Sans Pro Bold", sans-serif;
@@ -127,7 +101,10 @@ table.resourceTable thead th {
     letter-spacing: 1px;
     color: black;
     text-align: center;
-    border-top: none !important;
+}
+
+table.resourceTable thead th:first-child {
+    border-left: none;
 }
 
 /* The version column of the table */
@@ -138,7 +115,29 @@ table.resourceTable td.version {
     color: inherit;
 }
 
-/* The description column of the table*/
+table.resourceTable thead {
+    background: linear-gradient(90deg, #ffd53b 0%, #ff9b1b 100%);
+    border-bottom: 2px solid black;
+}
+
+table.resourceTable th {
+    padding: 3px 3px;
+}
+
+table.resourceTable th.left {
+    border-top-left-radius: 5px;
+}
+
+table.resourceTable th.mid {
+    border: 2px solid black;
+    border-top: none;
+}
+
+table.resourceTable th.right {
+    border-top-right-radius: 5px;
+}
+
+/* The description column of the table */
 table.resourceTable td.desc {
     padding-left: 20px;
     border-left: 2px solid black;
@@ -147,7 +146,7 @@ table.resourceTable td.desc {
     color: inherit;
 }
 
-/* The Project column of the table*/
+/* The Project column of the table */
 table.resourceTable td.name {
     text-align: center;
     border-right: 2px solid black;
@@ -156,23 +155,33 @@ table.resourceTable td.name {
     color: inherit;
 }
 
-table.resourceTable thead th:first-child {
-    border-left: none;
+/* The Body of the table */
+table.resourceTable td {
+    border-top: none;
+    border-bottom: 2px solid black;
+    padding: 3px 3px;
 }
 
+table.resourceTable a:hover {
+    color: orange;
+}
+
+table.resourceTable tbody td {
+    font-size: .35em;
+}
+
+/* The Footer of the table */
 table.resourceTable tfoot td {
     font-size: 14px;
 }
+
 table.resourceTable tfoot .links {
     text-align: right;
 }
+
 table.resourceTable tfoot .links a{
     display: inline-block;
     color: #FFFFFF;
     padding: 2px 8px;
     border-radius: 5px;
-}
-
-table.resourceTable a:hover {
-    color: orange;
 }
