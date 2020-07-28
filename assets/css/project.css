@@ -2,6 +2,7 @@
 
 /* Fonts */
 @import url(font-awesome.min.css);
+
 @font-face {
     font-family: "Source Sans Pro Light";
     src: url("../font/SourceSansPro-Light.ttf") format('truetype');
