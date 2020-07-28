@@ -1,0 +1,33 @@
+#wrap {
+    position: relative;
+    max-width: 100%;
+    min-width: 75%;
+    padding: 2.5% 2.5%;
+    background: #2d2d2d;
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    cursor: default;
+    opacity: 0.95;
+    text-align: center;
+    margin: .5% 1%;
+    font-family: FontAwesome, "Source Sans Pro", sans-serif;
+    font-size: 60px;
+    color: inherit;
+}
+
+#wrap h1, h2, h3, h4 {
+    color: white;
+}
+
+#wrap h1 {
+    font-size: 100%;
+}
+
+#wrap h2 {
+    font-size: 75%;
+}
+
+#wrap h3 {
+
+}
+

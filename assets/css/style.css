@@ -576,7 +576,7 @@ body.is-ie #wrapper {
     vertical-align: baseline;
 }
 
-.topnav a.home, h1 {
+.topnav a.home h1 {
     font-weight: bold;
     margin: 0 0 0 0;
 }
@@ -586,8 +586,15 @@ body.is-ie #wrapper {
     font-style: normal;
 }
 
-.topnav a.home:hover {
-    background-color: inherit;
+.topnav a.home:hover, a.info:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.topnav a.info {
+    float: right;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .topnav a.active {
