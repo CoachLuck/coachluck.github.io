@@ -378,13 +378,13 @@ body.is-ie #wrapper {
 @keyframes highlightNav {
     0% { background-color: #282828; }
     20% { background-color: #535353; }
-    20% { background-color: #92835D; }
-    30% { background-color: #AA945C; }
-    40% { background-color: #B89B52; }
-    50% { background-color: #C9A23F; }
+    20% { background-color: #92835d; }
+    30% { background-color: #aa945c; }
+    40% { background-color: #b89b52; }
+    50% { background-color: #c9a23f; }
     60% { background-color: #cca02f; }
-    70% { background-color: #D8AC3B; }
-    80% { background-color: #E5B53A; }
+    70% { background-color: #d8aC3b; }
+    80% { background-color: #e5b53a; }
     90% { background-color: #e6b435; }
     100% { background-color: #ffc83b; }
 }
