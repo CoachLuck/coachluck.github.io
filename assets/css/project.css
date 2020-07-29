@@ -22,6 +22,7 @@
     min-width: 75%;
     max-height: 90%;
     height: 90%;
+    overflow: scroll;
     padding: 2.5% 2.5%;
     background: rgba(0, 0, 0, 0.90);
     border-radius: 4px;
