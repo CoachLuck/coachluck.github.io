@@ -159,6 +159,10 @@ table.resourceTable td {
     text-transform: none;
 }
 
+table.rescourceTable tr {
+    vertical-align: middle;
+}
+
 table.resourceTable a:hover {
     color: orange;
 }
