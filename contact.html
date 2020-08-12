@@ -8,21 +8,22 @@
     <link rel="icon" href="assets/images/CL.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <style>
-        input {
-            color: white;
+        input, textarea{
+            color: black;
             font-weight: 900;
             font-size: 12px;
             padding: 5px 10px;
             width: 75%;
+            max-width: 100%;
             margin-bottom: 10px;
-            background-color: #d51b35;
+            background-color: white;
             text-transform: none;
         }
         button {
             width: 50%;
-            color: white;
+            color: #414141;
             font-weight: 800;
-            background-color: #d51b35;
+            background-color: white;
         }
     </style>
 </head>
@@ -49,8 +50,12 @@
                 <form action="https://send.pageclip.co/bwJhfmTRAPbIGwHBH9GY11HT37h2du4f/contact-form" class="pageclip-form" method="post">
                     <h3>Name</h3>
                     <input type="text" name="name" placeholder="Full Name" required/>
+
                     <h3>Email</h3>
                     <input type="email" name="email" placeholder="example@mail.com" required/>
+
+                    <h3>Message</h3>
+                    <textarea name="body" placeholder="Your message here" required></textarea>
 
                     <p></p>
                     <!-- This button will have a loading spinner. Keep the inner span for best results. -->
