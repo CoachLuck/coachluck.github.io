@@ -22,6 +22,7 @@
     min-width: 75%;
     max-height: 90%;
     height: 90%;
+    overflow: hidden;
     padding: 2.5% 2.5%;
     background: rgba(0, 0, 0, 0.90);
     border-radius: 4px;
@@ -79,7 +80,6 @@ table.resourceTable {
     border-radius: 10px;
     background: rgb(67, 67, 67);
     width: 100%;
-    max-width: 75%;
     margin-right: auto;
     margin-left: auto;
     text-align: left;
@@ -156,6 +156,10 @@ table.resourceTable td {
     padding: 3px 3px;
     font-family: "Source Sans Pro Light", sans-serif;
     text-transform: none;
+}
+
+table.rescourceTable tr {
+    vertical-align: middle;
 }
 
 table.resourceTable a:hover {
