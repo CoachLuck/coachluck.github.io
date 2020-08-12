@@ -6,6 +6,25 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/images/CL.ico" type="image/x-icon">
     <link rel="icon" href="assets/images/CL.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <style>
+        input {
+            color: white;
+            font-weight: 900;
+            font-size: 12px;
+            padding: 5px 10px;
+            width: 75%;
+            margin-bottom: 10px;
+            background-color: rgba(213, 27, 53, 0.79);
+            text-transform: none;
+        }
+        button {
+            width: 50%;
+            color: white;
+            font-weight: 800;
+            background-color: #d51b35;
+        }
+    </style>
 </head>
 <body class="is-loading">
     <div class="topnav">
@@ -17,6 +36,40 @@
         <a href="about.html">About</a>
         <a class="info" href="https://github.com/CoachLuck/coachluck.github.io">Source Code</a>
     </div>
+
+    <div id="wrapper">
+
+        <section id="main">
+
+            <header>
+                <h1>Contact</h1>
+            </header>
+
+            <hr>
+                <form action="https://send.pageclip.co/bwJhfmTRAPbIGwHBH9GY11HT37h2du4f/contact-form" class="pageclip-form" method="post">
+                    <h3>Name</h3>
+                    <input type="text" name="name" placeholder="Full Name" required/>
+                    <h3>Email</h3>
+                    <input type="email" name="email" placeholder="example@mail.com" required/>
+
+                    <p></p>
+                    <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                    <button type="submit" class="pageclip-form__submit">
+                        <span>Send</span>
+                    </button>
+                </form>
+            </hr>
+            <footer>
+
+            </footer>
+        </section>
+
+        <footer id="footer">
+
+        </footer>
+
+    </div>
     <script src="assets/js/backgroundLayers.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 </html>
