@@ -8,6 +8,31 @@
     <link rel="icon" href="assets/images/CL.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <style>
+        #Wrapper {
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -moz-perspective: 1000px;
+            -webkit-perspective: 1000px;
+            perspective: 1000px;
+            position: relative;
+            min-height: 100%;
+            padding: 1.5em;
+            z-index: 2;
+        }
+
+        #main {
+            width: 60%;
+        }
+
         input, textarea{
             color: black;
             font-weight: 900;
@@ -18,12 +43,18 @@
             margin-bottom: 10px;
             background-color: white;
             text-transform: none;
+            border-radius: 5px;
         }
         button {
+            font-size: 20px;
+            font-family: "Source Sans Pro Bold", sans-serif;
+            text-transform: uppercase;
             width: 50%;
+            height: 30px;
             color: #414141;
             font-weight: 800;
-            background-color: white;
+            background-color: #ffd53b;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -38,7 +69,7 @@
         <a class="info" href="https://github.com/CoachLuck/coachluck.github.io">Source Code</a>
     </div>
 
-    <div id="wrapper">
+    <div id="Wrapper">
 
         <section id="main">
 
@@ -57,12 +88,12 @@
                     <h2>Message</h2>
                     <textarea name="body" placeholder="Your message here" required></textarea>
 
-                    <!-- This button will have a loading spinner. Keep the inner span for best results. -->
                     <button type="submit" class="pageclip-form__submit">
                         <span>Send</span>
                     </button>
                 </form>
             <hr>
+            <footer></footer>
         </section>
         <footer id="footer"></footer>
     </div>
